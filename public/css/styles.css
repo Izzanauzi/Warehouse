@@ -1,0 +1,35 @@
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+}
+
+.sidebar {
+    position: fixed;
+    min-height: 100%;
+}
+
+
+
+/* tidak aktif */
+.nav-pills .pill-1 .nav-link:not(.active) {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  
+  /* aktif */
+.nav-pills .pill-1 .nav-link {
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+  }
+  .nav-pills>li>a.active,
+  .nav-pills>li>a:hover,
+  .nav-pills>li>a:focus {
+    background-color: grey !important;
+    color: white !important;
+  }
+
+  .btn-logout{
+    background: transparant;
+  }
