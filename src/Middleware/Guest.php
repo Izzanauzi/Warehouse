@@ -1,6 +1,6 @@
 <?
 
-namespace Core\Middleware;
+namespace App\Middleware;
 
 class Guest
 {
